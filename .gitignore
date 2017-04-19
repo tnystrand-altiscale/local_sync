@@ -1,0 +1,9 @@
+# Ignore everything by default
+*
+
+# But these files
+!.gitignore
+!.vimrc
+!.bashrc
+!.ssh/config
+!README.md
