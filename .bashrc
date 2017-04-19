@@ -15,4 +15,4 @@ export PS1="${TXTBLD}${GREEN}\A ${RED}\h ${YELLOW}\w\\n${RESET}\$ "
 LS_COLORS=$LS_COLORS:'di=0;35:' ; export LS_COLORS
 
 # Aliases
-alias ls="ls -FA"
+alias ls="ls -GFA"
