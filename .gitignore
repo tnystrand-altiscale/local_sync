@@ -1,9 +1,12 @@
 # Ignore everything by default
 *
 
-# But these files
+# Do not ignore these files in home directory
 !.gitignore
 !.vimrc
 !.bashrc
-!.ssh/config
 !README.md
+
+# ssh subfolder
+!.ssh/
+!.ssh/config
