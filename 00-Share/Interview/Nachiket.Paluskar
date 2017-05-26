@@ -1,0 +1,49 @@
+What he should do:
+Maintain pipeline - OPS of the sprint old and new
+Extend SPARK streaming
+Code airflow
+Construct Hive Vora Hana
+
+Needs big data knowledge
+
+Test coding abilities in python:
+Code a binary tree (recursively)
+Pay attension on deleteTree and ask about how to parallelize everything
+How to check if a tree is a binary search tree
+
+Test knowledge about MR:
+Map Reduce bash testing
+Ask about optimization
+    * Compress intermediate output
+    * Split input files if possible
+    * Combiner
+How to run on Hadoop?
+    * /bin/hadoop dfs -copyFromLocal ...
+    * use streaming java jar
+    * use resourcemanager ui to track progress for instance
+
+Hive knowledge
+Explain hive query (includes with clauses)
+Can he do windowing functions
+Does he know how to handle orc data
+run-length encoding, dictionary encoding for strings and bitmap encoding
+Can he say a few words about Tez
+Does he know how to write an UDF
+Buckets in Hive
+Map side join
+
+Oozie/airflow
+How would you run an mr job in oozie once a day?
+    * Create the mapper and reducer
+    * Create an oozie coordinator - xml file used to launch workflows
+    * Create an oozie workflow - xml file to define graph of nodes to traverse
+    * Upload the files to HDFS - directory configured
+    * Launch job through oozie job -config
+    * Monitoring of oozie
+Why not use cron?
+    * Oozie is basically an advanced cron
+    * Error reporting, moitoring, WebUI
+
+SPARK knowledge
+
+Read code

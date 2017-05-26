@@ -10,3 +10,8 @@
 # ssh subfolder
 !.ssh/
 !.ssh/config
+
+# 00-Share
+!00-Share/
+!00-Share/*
+!00-Share/**
